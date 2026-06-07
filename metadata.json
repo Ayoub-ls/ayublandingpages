@@ -1,0 +1,6 @@
+{
+  "name": "landing-pages",
+  "description": "A shell hosting multiple client landing pages under one deployment with Supabase orders integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
