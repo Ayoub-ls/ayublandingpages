@@ -1,5 +1,5 @@
-const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
-const SUPABASE_KEY = import.meta.env.VITE_SUPABASE_KEY;
+const SUPABASE_URL = "https://brrqjcmqnrctplqixlqh.supabase.co";
+const SUPABASE_KEY = "sb_publishable_s3rAeTblm_QL0KyyeEdcsg_wxLHPT-9";
 const SOURCE = "maio";
 
 export async function submitOrder(orderData) {
