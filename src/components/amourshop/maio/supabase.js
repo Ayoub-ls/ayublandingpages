@@ -13,6 +13,7 @@ export async function submitOrder(orderData) {
       Prefer: "return=representation",
     },
     body: JSON.stringify({
+      client_id: CLIENT_ID,
       name: orderData.name,
       phone: orderData.phone,
       city: orderData.city,
