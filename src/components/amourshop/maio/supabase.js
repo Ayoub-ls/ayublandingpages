@@ -1,6 +1,7 @@
-const SUPABASE_URL = "https://brrqjcmqnrctplqixlqh.supabase.co";
-const SUPABASE_KEY = "sb_publishable_s3rAeTblm_QL0KyyeEdcsg_wxLHPT-9";
+const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
+const SUPABASE_KEY = import.meta.env.VITE_SUPABASE_KEY;
 const SOURCE = "maio";
+const CLIENT_ID = "amourshop";
 
 export async function submitOrder(orderData) {
   const res = await fetch(`${SUPABASE_URL}/rest/v1/orders`, {
