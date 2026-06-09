@@ -4,13 +4,11 @@ import './index.css';
 import img1 from "./image/img1.jpeg"
 import img2 from "./image/img2.jpeg"
 import img3 from "./image/img3.PNG"
-import img4 from "./image/img4.PNG"
 
 const IMAGES = [
   img1,
   img2,
-  img3,
-  img4,
+  img3
 ];
 
 export default function ImageGallery() {

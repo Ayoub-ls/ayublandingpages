@@ -17,9 +17,9 @@ import OrderModal from '../../components/amourshop/pairdz/OrderModal_PairDZ';
 import MobileStickyCTA from '../../components/amourshop/pairdz/MobileStickyCTA';
 import SocialProof from '../../components/amourshop/pairdz/SocialProof';
 
-const PRICE_PER_UNIT = 2900;
+const PRICE_PER_UNIT = 3900;
 
-export default function PairDZ() {
+export default function PairDZHigh() {
   const [sizeQuantities, setSizeQuantities] = useState({
     2: 0, 4: 0, 6: 1, 8: 0, 10: 0, 12: 0, 14: 0, 16: 0
   });
@@ -94,6 +94,7 @@ export default function PairDZ() {
                 </span>
               </div>
             </div>
+            <SocialProof />
             <SizeSelector
               sizeQuantities={sizeQuantities}
               onUpdateQty={updateSizeQty}
@@ -107,7 +108,6 @@ export default function PairDZ() {
               <span>اطلب الآن - دفع عند الاستلام</span>
             </button>
             <TrustBadges />
-            <SocialProof />
           </div>
         </div>
       </main>

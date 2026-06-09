@@ -9,6 +9,7 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import LandingPage from "./pages/amourshop/Miyo";
 import PairDZ from './pages/amourshop/App_PairDZ';
+import PairDZHigh from "./pages/amourshop/App_PairDZ_high";
 import NotFound from "./pages/NotFound";
 import { Link2, Layers, BookOpen, Database, CheckCircle2 } from "lucide-react";
 
@@ -148,6 +149,7 @@ export default function App() {
         <Route path="/" element={<RootPortal />} />
         <Route path="/amourshop/maio" element={<LandingPage />} />
         <Route path="/amourshop/pair-dz" element={<PairDZ />} />
+        <Route path="/amourshop/pair-dz-high" element={<PairDZHigh />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
