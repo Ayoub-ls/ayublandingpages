@@ -1,20 +1,20 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Play, Pause, Star, CheckCircle2, Volume2, VolumeX, Headphones } from 'lucide-react';
-import audio3 from './image/AUDIO-2026-05-20-12-38-11.m4a.mp4';
-import audio2 from './image/WhatsApp Audio 2026-06-03 at 14.42.22.mp4';
-import audio1 from './image/AUDIO-2026-05-20-12-26-35.m4a.mp4';
+import audio1 from './image/1.mp4';
+import audio2 from './image/2.mp4';
+import audio3 from './image/3.mp4';
 import './index.css';
 
 const TESTIMONIALS = [
   {
     id: 1,
-    audioSrc: audio1,
+    audioSrc: audio3,
     avatarColor: "bg-emerald-50 text-emerald-700 border border-emerald-100",
     avatarInitial: "أ"
   },
   {
     id: 2,
-    audioSrc: audio3,
+    audioSrc: audio1,
     avatarColor: "bg-red-50 text-algeria-red border border-red-100",
     avatarInitial: "ب"
   },
