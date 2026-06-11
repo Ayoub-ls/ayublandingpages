@@ -5,6 +5,7 @@
 // Imports updated for landing-pages app structure:
 //   components → ../../components/amourshop/pairdz/
 // ═══════════════════════════════════════════════════════
+import '../../components/amourshop/pairdz/index.css'
 
 import React, { useState } from 'react';
 import { Sparkles, Zap } from 'lucide-react';
@@ -13,7 +14,7 @@ import ImageGallery from '../../components/amourshop/pairdz/ImageGallery';
 import SizeSelector from '../../components/amourshop/pairdz/SizeSelector';
 import TrustBadges from '../../components/amourshop/pairdz/TrustBadges';
 import SizeChartModal from '../../components/amourshop/pairdz/SizeChartModal';
-import OrderModal from '../../components/amourshop/pairdz/OrderModal_PairDZ';
+import OrderModal from '../../components/amourshop/pairdz/OrderModal_PairDZ_High';
 import MobileStickyCTA from '../../components/amourshop/pairdz/MobileStickyCTA';
 import SocialProof from '../../components/amourshop/pairdz/SocialProof';
 

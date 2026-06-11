@@ -450,10 +450,12 @@ export default function LandingPage() {
       // GTM dataLayer push
       window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
-        event: 'purchase',
-        value: totalPrice,
-        currency: 'DZD',
-        quantity: totalQuantity
+        event:    "purchase_cod_delivered",
+        source:   "maio",
+        client:   "amourshop",
+        value:    totalPrice,
+        currency: "DZD",
+        quantity: totalQuantity,
       });
     } catch (err) {
       console.error(err);

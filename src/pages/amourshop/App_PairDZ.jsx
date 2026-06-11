@@ -5,6 +5,7 @@
 // Imports updated for landing-pages app structure:
 //   components → ../../components/amourshop/pairdz/
 // ═══════════════════════════════════════════════════════
+import '../../components/amourshop/pairdz/index.css'
 
 import React, { useState } from 'react';
 import { Sparkles, Zap } from 'lucide-react';

@@ -5,7 +5,7 @@ import './index.css';
 // ─── SUPABASE CONFIG ──────────────────────────────────────────────────────────
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
 const SUPABASE_KEY = import.meta.env.VITE_SUPABASE_KEY; // ← paste your anon key
-const SOURCE = "pair-dz";           // ← change per landing page
+const SOURCE = "pair-dz-high";           // ← change per landing page
 
 const submitToSupabase = async (orderData) => {
   const res = await fetch(`${SUPABASE_URL}/rest/v1/orders`, {
@@ -156,10 +156,10 @@ export default function OrderModal({
       // GTM dataLayer push
       window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
-        event: "purchase_cod_delivered",
-        source: SOURCE,
-        client: "amourshop",
-        value: totalPrice,
+        event:    "purchase_cod_delivered",
+        source:   SOURCE,
+        client:   "amourshop",
+        value:    totalPrice,
         currency: "DZD",
         quantity: totalQuantity,
       });

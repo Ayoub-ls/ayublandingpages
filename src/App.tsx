@@ -12,6 +12,7 @@ import PairDZ from './pages/amourshop/App_PairDZ';
 import PairDZHigh from "./pages/amourshop/App_PairDZ_high";
 import NotFound from "./pages/NotFound";
 import { Link2, Layers, BookOpen, Database, CheckCircle2 } from "lucide-react";
+import Rita from "./pages/Zena/Rita";
 
 
 function RootPortal() {
@@ -150,6 +151,7 @@ export default function App() {
         <Route path="/amourshop/maio" element={<LandingPage />} />
         <Route path="/amourshop/pair-dz" element={<PairDZ />} />
         <Route path="/amourshop/pair-dz-high" element={<PairDZHigh />} />
+        <Route path="/zena/rita" element={<Rita />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
